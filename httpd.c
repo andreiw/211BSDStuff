@@ -249,6 +249,8 @@ char *argv[];
             printf("Content-Type: image/jpeg\r\n");
         else if (!strcmp(ext, ".ico"))
             printf("Content-Type: image/x-icon\r\n");
+        else if (!strcmp(ext, ".css"))
+            printf("Content-Type: text/css\r\n");
         else
             printf("Content-Type: text/plain\r\n");
 
