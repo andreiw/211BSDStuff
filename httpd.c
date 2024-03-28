@@ -19,7 +19,7 @@
 #define CGI_BIN
 #define BUF_SIZE 256
 #define PATH_LEN 512
-#define WWW_ROOT "/home/www/"
+#define WWW_ROOT "/var/www/"
 #define LOGFILE "/usr/adm/httpd.log"
 
 #define HTTP_200 "HTTP/1.1 200 OK"
