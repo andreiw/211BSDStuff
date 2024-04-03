@@ -66,7 +66,6 @@ main (argc, argv)
     }
     *(unsigned short *) (io_ptr + 020) = value;
     sleep(1);
-
   }
   exit(0);
 }
