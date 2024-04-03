@@ -1,4 +1,12 @@
-/* 2.11BSD httpd */
+/*
+ * SPDX-License-Identifier: BSD-3-Clause
+ *
+ * Copyright (C) Andrei Warkentin <andreiw@mm.st>
+ * Further changes by Chase Covello
+ * MIT License Copyright (c) 2019 Aaron S. Jackson
+ *
+ * 2.11BSD httpd
+*/
 #include <sys/types.h>
 #include <sys/file.h>
 #include <sys/socket.h>
